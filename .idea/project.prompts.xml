@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PromptTemplates">
+    <option name="prompts">
+      <list>
+        <PromptTemplate>
+          <option name="name" value="Explain this code" />
+          <option name="text" value="Explain next code: （请使用中文）&#10; $SELECTION" />
+        </PromptTemplate>
+        <PromptTemplate>
+          <option name="name" value="Summarize this file" />
+          <option name="text" value="Summarize this file in a couple of lines(请使用中文)&#10; $CURRENT_FILE" />
+        </PromptTemplate>
+        <PromptTemplate>
+          <option name="name" value="Summarize this code" />
+          <option name="text" value="Summarize this code in a couple of lines(请使用中文)&#10; $SELECTION" />
+        </PromptTemplate>
+      </list>
+    </option>
+  </component>
+</project>
